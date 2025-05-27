@@ -1,6 +1,3 @@
-> The metrics were fed into OpenAI which ranked Severity. From this, the list below was all of the "SEV-1" alerts. These were then passed into perplexity deep research and then the descriptions were validated with my own internet searches
-{.is-info}
-
 | Name | Description & Example | Example Query | Severity |
 |------|----------------------|--------------|----------|
 | `active_argocd_instances_total` | Shows the number of Argo CD instances currently managed across the cluster. Unexpected changes may indicate issues with Argo CD operator. For example, if this drops to 0 when you expect active instances, it indicates Argo CD instances are not being properly tracked. | `active_argocd_instances_total == 0` | High |
